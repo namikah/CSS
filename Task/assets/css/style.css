@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    margin: 20px 20px;
+   
+}
+
+label{
+    margin-right: 10px;
+}
+
+#password{
+    margin: auto;
+}
+
+div{
+    margin: 20px 0px;
+    background-image: url("https://drive.google.com/file/d/167EEcXc4KF0fN_s9sEpO-EMHLCWl0wri/view?usp=sharing");
+}
+
+.log-label{
+    margin-left: 22px;
+}
+
+.submit{
+    width: 100px;
+    height: 20px;
+    margin-left: 148px;
+}
+
+div.par1{
+    width: 400px;
+    height: 150px;
+    border: 1px solid blue;
+    padding: 5px;
+    max-width: 600px;
+    overflow: auto;
+    display: inline-block;
+}
+
+div.par2{
+    width: 400px;
+    height: 150px;
+    border: 1px solid red;
+    padding: 5px;
+    max-width: 600px;
+    overflow: scroll;
+    display: inline-block;
+}
+
+div.par3{
+    width: 400px;
+    height: 150px;
+    border: 1px solid green;
+    padding: 5px;
+    max-height: 200px;
+    max-width: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: inline-block;
+}
+
+input{
+    margin: 5px 0px;
+}
+
+h2{
+    margin: 10px 0px;
+
+}
+
+h2::first-letter{
+    color: red;
+    font-size: xx-large;
+}
